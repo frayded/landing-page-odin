@@ -7,9 +7,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-
-  display: flex;
-  flex-direction: column;
 }
 
 ul {
@@ -43,8 +40,6 @@ a {
 }
 
 .header-nav li a {
-  text-decoration: none;
-
   font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
