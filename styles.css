@@ -22,13 +22,19 @@ button {
   display: inline-block;
   border: none;
   border-radius: 8px;
+  padding: 4px 12px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* grouped general components */
 
 .header-hero,
 .content-hero,
-.random-info {
+.random-info,
+.quote-section {
   padding: 0 140px 80px;
 }
 
@@ -87,6 +93,8 @@ button {
   font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
+
+  margin-bottom: 16px;
 }
 
 .signup {
@@ -144,4 +152,72 @@ button {
 
   border: 5px solid #3882f6;
   border-radius: 10px;
+}
+
+/* quote section */
+.quote-section {
+  background-color: #e5e7eb;
+
+  padding: 80px 320px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.says-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author-quote {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+/* cta section */
+.cta-section {
+  background-color: #fff;
+  padding: 80px 160px;
+}
+
+.container-cta {
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-cta .signup {
+  border: 1px solid #fff;
+}
+
+.banner-cta {
+  color: #f9faf8;
+}
+
+.banner-cta p:nth-of-type(1) {
+  font-weight: 800;
+}
+
+/* footer */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 40px 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
