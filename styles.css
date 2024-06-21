@@ -24,10 +24,12 @@ button {
   border-radius: 8px;
 }
 
+/* grouped general components */
+
 .header-hero,
 .content-hero,
 .random-info {
-  padding: 20px 140px 80px;
+  padding: 0 140px 80px;
 }
 
 .header-hero,
@@ -37,6 +39,12 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* header logo section */
+
+.header-hero {
+  padding-top: 20px;
 }
 
 .header-logo {
@@ -57,6 +65,8 @@ button {
   font-weight: 300;
   color: #e5e7eb;
 }
+
+/* this website is awesome section */
 
 .content-hero {
   gap: 16px;
@@ -99,9 +109,11 @@ button {
   align-items: center;
 }
 
+/* some random information section */
+
 .info-header {
   text-align: center;
-  margin: 24px auto;
+  margin: 32px auto;
 
   font-size: 36px;
   font-weight: 900;
