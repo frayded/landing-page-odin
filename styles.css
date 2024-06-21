@@ -25,9 +25,14 @@ button {
 }
 
 .header-hero,
+.content-hero,
+.random-info {
+  padding: 20px 140px 80px;
+}
+
+.header-hero,
 .content-hero {
   background-color: #1f2937;
-  padding: 20px 140px 80px;
 
   display: flex;
   justify-content: space-between;
@@ -92,4 +97,39 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info-header {
+  text-align: center;
+  margin: 24px auto;
+
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.square-placeholder {
+  width: 150px;
+}
+
+.square-placeholder p {
+  text-align: center;
+  color: #1f2937;
+}
+
+.frame-square {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  margin-bottom: 8px;
+
+  border: 5px solid #3882f6;
+  border-radius: 10px;
 }
